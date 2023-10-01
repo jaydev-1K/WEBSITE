@@ -1,0 +1,192 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    height: 90px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-logo {
+    padding-left: 30px;   
+}
+
+.nav-logo  img {
+    height: 110px;
+    position: relative;
+    top: 20px;
+}
+
+.menu-btn ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Black';
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 26, 26, 0.829);
+    box-shadow: 0px 3px 40px rgb(0, 255, 255);
+}
+
+
+.food-content {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.food-left-content {
+    color: white;
+    padding-top: 100px;
+    padding-left: 70px;
+
+
+}
+
+.food-left-content h1 {
+    font-family: 'Arial Black';
+    color: rgb(0, 255, 234);
+    position: relative;
+}
+
+.food-left-content p {
+    line-height: 22px;
+    top: 30px;
+    position: relative;
+    font-family: Arial;
+}
+
+.food-right-content {
+    padding-right: 70px;
+    padding-top: 40px;
+}
+
+.row1-img img {
+    height: 150px;
+    width: 250px;
+}
+
+.scroll-content {
+    color: #ffffff;
+    height: 90vh; 
+}
+
+.scroll-content h2 {
+    font-family: 'Arial Black';
+    text-align: center;
+    position: relative;
+    top: -25px;
+    text-transform: uppercase;
+}    
+
+.row1 h3 {
+    position: relative;
+    top: 145px;
+    font-family: 'Arial Black';
+    font-size: 15px;
+}
+
+.row1 {
+    justify-content: space-around;
+    display: inline-flex;
+    padding: 0px 60px;
+    position: relative;    
+    left: 120px;
+    top: 35px;
+    
+}
+
+.row1 img {
+    box-shadow: 0px 3px 40px rgb(0, 255, 213);
+}
+
+.scroll-content-pharagraph {
+   display: flex;
+}
+
+.scroll-content .phar1 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-size: 15px;
+    font-family: Arial;
+    width: 300px;
+    line-height: 20px;
+} 
+
+.scroll-content .phar2 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 230px;
+    font-family: Arial;
+    font-size: 15px;
+    width: 300px;
+    line-height: 20px;
+} 
+
+.scroll-content .phar3 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    font-family: Arial;
+    width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+} 
+
+.scroll-content h3 {
+    position: absolute;
+    padding: 30px;
+}
+
+.scroll-content a {
+    font-family: 'Arial Black';
+    text-transform: uppercase;
+    position: absolute;
+    top: 1150px;
+    left: 560px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    border: solid 2px rgb(0, 255, 255);
+    transition: 0.3s;
+}
+
+.scroll-content a:hover {
+    border: solid 2px rgb(0, 255, 255);
+} 

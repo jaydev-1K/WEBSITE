@@ -1,0 +1,429 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    height: 90px;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.nav-logo {
+    padding-left: 20px;   
+}
+
+.nav-logo  img {
+    height: 110px;
+    position: relative;
+    top: 15px;
+}
+
+.menu-btn ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Black';
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 26, 26, 0.829);
+    box-shadow: 0px 3px 40px rgb(0, 255, 255);
+}
+
+.right-content img {
+    height: 500px;
+    width: 500px;
+    float: right;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+.content {
+    height: 85vh;
+}
+
+.right-content a {
+    position: absolute;
+    left: 880px;
+    top: 600px;
+    padding-right: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.left-content {
+    color: white;
+    padding: 30px 60px ; 
+}
+
+.left-content h3 {
+    font-family: 'Arial Black';
+    padding-top: 35px;
+    color: rgb(0, 255, 234);
+}
+
+.left-content p {
+    padding-top: 15px;
+    width: 600px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Arial;
+}
+
+.scroll-content {
+    color: white;
+    height: 100vh;
+}
+
+.scroll-content h2 {
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(0, 255, 234);
+    text-transform: uppercase;
+    font-family: 'Arial Black';
+}
+
+.scroll-content img {
+    height: 400px;
+    float: right;
+    padding-right: 80px;
+    padding-top: 70px;
+}
+
+.scroll-content a {
+    color: white;
+    position:static;
+    top: 400px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+} 
+
+.scroll-content p {    
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 21px;
+    width: 600px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.content-p #p-sources {
+    padding-bottom: 10px;
+    padding-top: 40px;
+    color: rgb(0, 255, 242);
+    font-family: 'Arial Black';
+}
+
+.content-p a {
+    padding-left: 60px;
+}
+
+.left a {
+   position: absolute;
+   left: 930px;
+   top: 1130px;
+}
+
+.third-page-pres {
+    color: white;
+    height: 320vh;
+    padding-top: 40px;
+}
+
+.third-page-pres h2 {
+    font-family: 'Arial Black';
+    text-transform: uppercase;   
+    color: rgb(0, 255, 242); 
+    padding-left: 520px;
+}
+
+.third-page-pres p {
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 21px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+.third-rowleft img {
+    position: relative;
+    border: solid 2px;    
+    top: 100px;
+    height: 130px;
+    width: 130px; 
+    left: 40px;
+}
+
+.third-rowleft p {
+    position: relative;
+    top: -35px;
+    width: 465px;
+    left: 200px;
+}
+
+.third-rowleft #manuel {
+    position: absolute;
+    top: 1750px;
+}
+
+.third-rowleft #manuel-para {
+    position: relative;
+    top: 15px;
+}
+
+.third-rowleft #osmenia {
+    position: absolute;
+    top: 2090px;
+}
+
+.third-rowleft #osmenia-para {
+    position: relative;
+    top: 70px;
+} 
+
+.third-rowleft #roxas {
+    position: absolute;
+    top: 2260px;
+}
+
+.third-rowleft #roxas-para {
+    position: relative;
+    top: 110px;
+} 
+
+.third-page-pres #quirino {
+    position: relative;
+    top: 130px;
+} 
+
+.third-page-pres #quirino-para {
+    position: relative;
+    top: -5px;
+}
+
+.third-rowleft #magsaysay {
+    position: absolute;
+    top: 2590px;
+}
+
+.third-rowleft #ramon-para {
+    position: relative;
+    top: 15px;
+    
+}
+
+.third-rowleft #garcia {
+    position: absolute;
+    top: 2760px;
+}
+
+.third-rowleft #garcia-para {
+    position: relative;
+    top: 100px;
+}
+
+.third-rowleft #macapagal {
+    position: absolute;
+    top: 2930px;
+}
+
+.third-rowleft #macapagal-para {
+    position: relative;
+    top: 140px;
+}
+
+.third-rowleft #marcossr {
+    position: absolute;
+    top: 3100px;
+} 
+
+.third-rowleft #marcossr-para {
+    position: relative;
+    top: 190px;
+} 
+
+.third-rowleft #corazon {
+    position: absolute;
+    top: 1580px;
+    left: 700px;
+
+
+}
+
+.third-rowleft #corazon-para {
+    position: absolute;
+    top: 1580px;
+    left: 850px;
+}
+
+.third-rowleft #fidel {
+    position: absolute;
+    top: 1745px;
+    left: 700px;
+}
+
+.third-rowleft #fidel-para {
+    position: absolute;
+    top: 1745px;
+    left: 850px;
+}
+
+.third-rowleft #estrada {
+    position: absolute;
+    top: 1915px;
+    left: 700px;
+}
+
+
+.third-rowleft #estrada-para {
+    position: absolute;
+    top: 1920px;
+    left: 850px;
+}
+
+.third-rowleft #arroyo {
+    position: absolute;
+    top: 2085px;
+    left: 700px;
+}
+
+.third-rowleft #arroyo-para {
+    position: absolute;
+    top: 2085px;
+    left: 850px;
+}
+
+.third-rowleft #benigno {
+    position: absolute;
+    top: 2255px;
+    left: 700px;
+}
+
+.third-rowleft #benigno-para {
+    position: absolute;
+    top: 2255px;
+    left: 850px;
+}
+
+.third-rowleft #duterte {
+    position: absolute;
+    top: 2420px;
+    left: 700px;
+}
+
+.third-rowleft #duterte-para {
+    position: absolute;
+    top: 2420px;
+    left: 850px;
+}
+
+.third-rowleft #bongbong {
+    position: absolute;
+    top: 2590px;
+    left: 700px;
+}
+
+.third-rowleft #bongbong-para {
+    position: absolute;
+    top: 2590px;
+    left: 850px;
+}
+
+.song-vid {
+    height: 90vh;
+    color: white;
+}
+
+.song-vid h2 {
+    text-align: center;
+    font-family: 'Arial Black';
+    color: rgb(0, 255, 221);
+}
+
+.song-vid p {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    bottom: -2820px;
+    left: 370px;
+}
+
+video {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    padding-top: 140px;
+    left: 320px;
+}
+
+.athem-lyrics {
+    height: 100vh;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.athem-lyrics h2 {
+    color: rgb(0, 255, 242);
+    font-family: 'Arial Black';
+}
+
+.athem-lyrics h3 {
+    padding-top: 20px;
+    font-family: 'Arial Black';
+} 
+
+.athem-lyrics h4 {
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.athem-lyrics p {
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 21px;
+}
+
+
+
+

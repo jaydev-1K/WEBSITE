@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    height: 90px;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.nav-logo {
+    padding-left: 20px;   
+}
+
+.nav-logo  img {
+    height: 110px;
+    position: relative;
+    top: 15px;
+}
+
+.menu-btn ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Black';
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 26, 26, 0.829);
+    box-shadow: 0px 3px 40px rgb(0, 255, 255);
+}
+
+.content {
+    color: white;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top:    50px;
+}
+
+h3 {
+    font-family: 'Arial Black'; 
+    color: rgb(0, 255, 255);
+    text-transform: uppercase;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+
+.content #place1, #place2, #place3 {
+    position: relative;
+    left: 240px;
+} 
+
+.content #place1 {
+    position: relative;
+    left: 160px;
+}
+
+.content #place3 {
+    position: relative;
+    left: 320px;
+}
+
+.content img {
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+    border: solid 3px white ;
+    transition: 0.3s;
+}
+
+.content img:hover {
+   box-shadow: 0px 3px 40px rgb(0, 255, 255); 
+   transform: scale(1.2);
+}
+
+.text-desc p {
+   color: white;
+   font-size: 15px;
+   font-family: Arial;
+   line-height: 22px;
+   width: 280px;
+   text-align: center;
+}
+
+.text-desc #Terraces-para {
+    position: absolute;
+    font-family: Arial;
+    top: 415px;
+    left: 190px;
+
+}
+
+.text-desc #hills-para {
+    position: absolute;
+    font-family: Arial;
+    top: 415px;
+    left: 530px;
+}
+
+.text-desc #boracay-para {
+    position: absolute;
+    font-family: Arial;
+    top: 415px;
+    left: 860px;
+}
+
+h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: rgb(0, 255, 234);
+} 
